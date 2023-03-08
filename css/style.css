@@ -233,3 +233,7 @@ figure {
 .about-desc p{
     text-align: initial;
 }
+.cartoon img{
+  width: 30%;
+  float: right;
+}
