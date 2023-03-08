@@ -1,0 +1,235 @@
+body {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7); }
+    @media screen and (max-width: 992px) {
+      body {
+        font-size: 16px; } 
+        h2{
+            text-align: center;
+        }}
+
+a {
+  color: #2c98f0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  a:hover, a:active, a:focus {
+    color: #2c98f0;
+    outline: none;
+    text-decoration: none !important; }
+
+p {
+  margin-bottom: 1.5em;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+x{
+    margin-bottom: 1.5em;
+    background-color:darkkhaki;
+    color: black;
+    backface-visibility: visible;
+}
+
+h1, h4, h5, h6 {
+  color: #000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  margin: 0 0 10px 0; }
+
+h2{
+    color: #000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 200;
+  margin: 0 0 20px 0;
+}
+h3{
+    color: #000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 200;
+  margin: 0 0 30px 0;
+}
+
+figure {
+  margin-bottom: 2.5em;
+  float: left;
+  width: 100%; }
+  figure figcaption {
+    font-size: 16px;
+    width: 80%;
+    margin: 20px auto 0px auto;
+    color: #b3b3b3;
+    font-style: italic;
+    font-family: "Quicksand", Arial, sans-serif; }
+    @media screen and (max-width: 480px) {
+      figure figcaption {
+        width: 100%; } }
+
+::-webkit-selection {
+  color: #fff;
+  background: #2c98f0; }
+
+::-moz-selection {
+  color: #fff;
+  background: #2c98f0; }
+
+::selection {
+  color: #fff;
+  background: #2c98f0; }
+
+
+
+
+
+#colorlib-page {
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+  
+  #colorlib-aside {
+    padding-top: 3em;
+    padding-bottom: 1px;
+    float:left;
+    width: 300px;
+    position: fixed;
+    z-index: 1001;
+      background-color: #f2f3f7;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    height: -webkit-fill-available; 
+    margin-left: 30px;
+    margin-bottom: 15px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+    
+    @media screen and (max-width: 768px) {
+      #colorlib-aside {
+        width: 300px;
+        -moz-transform: translateX(-300px);
+        -webkit-transform: translateX(-300px);
+        -ms-transform: translateX(-300px);
+        -o-transform: translateX(-300px);
+        transform: translateX(-300px);
+        padding-top: 4em;
+        background-color: #f2f3f7;
+          height: auto;
+        } }
+
+        #colorlib-aside .author-img {
+            width: 140px;
+            height: 140px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            border-radius: 50%;
+            border: 3px solid white;}
+            #colorlib-aside h1{
+    color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+  #colorlib-aside .position {
+    display: block;
+    margin-bottom: 2em;
+    font-size: 12px;
+    text-transform: uppercase; }
+
+    #colorlib-aside #colorlib-logo a {
+        display: block;
+        text-align: center;
+        color: #000;
+        font-weight:bolder;
+        padding-right: .3em;
+        text-decoration: none;
+    }
+        
+    #colorlib-aside #colorlib-main-menu {
+      display: block;
+      width: 100%; }
+      #colorlib-aside #colorlib-main-menu .collapse {
+        display: block !important; }
+      #colorlib-aside #colorlib-main-menu ul {
+        text-align: center;
+        margin: 0;
+        padding: 0; }
+        @media screen and (max-width: 768px) {
+          #colorlib-aside #colorlib-main-menu ul {
+            margin: 0 0 2em 0; } }
+        #colorlib-aside #colorlib-main-menu ul li {
+          margin: 0 0 10px 0;
+          padding: 0;
+          list-style: none;
+          font-size: 12px;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 1px; }
+          #colorlib-aside #colorlib-main-menu ul li a {
+            color: rgba(0, 0, 0, 0.7);
+            text-decoration: none;
+            position: relative;
+            padding: 10px 0;
+            font-family: "Quicksand", Arial, sans-serif;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s; }
+            #colorlib-aside #colorlib-main-menu ul li a:after {
+              content: "";
+              position: absolute;
+              height: 1px;
+              bottom: 7px;
+              left: 0;
+              right: 0;
+              background-color: #2c98f0;
+              visibility: hidden;
+              -webkit-transform: scaleX(0);
+              -moz-transform: scaleX(0);
+              -ms-transform: scaleX(0);
+              -o-transform: scaleX(0);
+              transform: scaleX(0);
+              -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+              transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            #colorlib-aside #colorlib-main-menu ul li a:hover {
+              text-decoration: none;
+              color: black; }
+              #colorlib-aside #colorlib-main-menu ul li a:hover:after {
+                visibility: visible;
+                -webkit-transform: scaleX(1);
+                -moz-transform: scaleX(1);
+                -ms-transform: scaleX(1);
+                -o-transform: scaleX(1);
+                transform: scaleX(1); }
+          #colorlib-aside #colorlib-main-menu ul li.active a {
+            color: #2c98f0; }
+            #colorlib-aside #colorlib-main-menu ul li.active a:after {
+              visibility: visible;
+              -webkit-transform: scaleX(1);
+              -moz-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+              -o-transform: scaleX(1);
+              transform: scaleX(1); }
+.author-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+/* about section */
+
+.colorlib-about{
+    margin: 10px 10px 0 25em;
+    padding-top: 10px;
+}
+.about-desc p{
+    text-align: initial;
+}
